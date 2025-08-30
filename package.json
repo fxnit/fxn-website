@@ -9,7 +9,7 @@
     "lint": "eslint",
     "export": "next build && next export",
     "deploy": "npm run build && touch out/.nojekyll",
-    "deploy-manual": "npm run build && echo 'Manual deploy: out/ klasörünü GitHub Pages\'e yükleyin'"
+    "deploy-manual": "npm run build && echo 'Manual deploy: out/ folder ready for GitHub Pages'"
   },
   "dependencies": {
     "react": "19.1.0",
