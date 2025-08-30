@@ -146,7 +146,7 @@ git push origin dev
 
 ### 🧪 **Test Environment:**
 
-- **URL**: `https://fxnit.github.io/fxn-website` (project repository)
+- **URL**: `https://fxnit.github.io/` (root domain - fxnit.github.io repository)
 - **Trigger**: `dev` branch'e push
 - **Purpose**: Development testing and team collaboration
 - **Auto-deploy**: GitHub Actions ile otomatik

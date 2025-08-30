@@ -28,7 +28,7 @@ export default function EnvBanner({ environment = 'dev', showBanner = true }: En
       case 'staging':
         return '🔧 STAGING ENVIRONMENT';
                    case 'dev':
-               return '🧪 DEV ENVIRONMENT - GitHub Pages (/fxn-website) - Not for Production Use';
+               return '🧪 DEV ENVIRONMENT - GitHub Pages (fxnit.github.io) - Not for Production Use';
       case 'test':
         return '🧪 TEST ENVIRONMENT - GitHub Pages - Not for Production Use';
       default:

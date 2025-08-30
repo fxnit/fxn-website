@@ -1,4 +1,4 @@
-name: Deploy Dev Branch to GitHub Pages
+name: Deploy to GitHub Pages (fxnit.github.io)
 
 on:
   push:
@@ -39,5 +39,4 @@ jobs:
         force_orphan: true
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        # For organization repositories
-        cname: ''
+        # No cname needed for fxnit.github.io (root domain)
