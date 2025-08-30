@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ dev ]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -26,13 +31,11 @@ jobs:
     - name: Build project
       run: npm run build
       
-    - name: Add .nojekyll file
-      run: touch out/.nojekyll
-      
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/dev'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./out
         force_orphan: true
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
