@@ -146,7 +146,7 @@ git push origin dev
 
 ### 🧪 **Test Environment:**
 
-- **URL**: `https://username.github.io/fxnit-test`
+- **URL**: `https://fxnit.github.io/fxnit-test` (organization repository)
 - **Trigger**: `dev` branch'e push
 - **Purpose**: Development testing and team collaboration
 - **Auto-deploy**: GitHub Actions ile otomatik
@@ -154,7 +154,7 @@ git push origin dev
 ### 📍 **Environment URLs:**
 
 - **Development**: `http://localhost:3000`
-- **Test**: `https://username.github.io/fxnit-test` (dev branch)
+- **Test**: `https://fxnit.github.io/fxnit-test` (dev branch, organization repo)
 - **Production**: `https://fxnit.com` (main branch, fxn-setup ile)
 
 ## Deployment

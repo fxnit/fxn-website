@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   // Enable static export for GitHub Pages
   output: 'export',
   
-  // Set base path for GitHub Pages (dev branch = fxnit-test)
+  // Set base path for GitHub Pages (organization repo = fxnit-test)
   basePath: process.env.NODE_ENV === 'production' ? '/fxnit-test' : '',
   
   // Disable image optimization for static export
